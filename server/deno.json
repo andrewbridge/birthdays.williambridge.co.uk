@@ -1,8 +1,15 @@
 {
+  "unstable": ["kv"],
   "tasks": {
     "dev": "deno run -A --unstable-kv --env-file=.env --watch making-it-achievements.ts",
     "clear-kv": "deno run -A --unstable-kv --env-file=.env clear-kv.ts",
     "check": "deno check making-it-achievements.ts",
     "fmt": "deno fmt making-it-achievements.ts"
+  },
+  "deploy": {
+    "org": "andrewbridge",
+    "app": "making-it-game"
   }
 }
+
+

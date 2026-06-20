@@ -1,7 +1,7 @@
 // Single place to point the client at the payout backend. Update this to the
 // deployed Deno Deploy URL (see server/making-it-achievements.ts). Kept as a
 // constant so the app stays portable if the site moves to a subdomain.
-export const SERVER_ENDPOINT = 'http://localhost:8000';
+export const SERVER_ENDPOINT = 'https://making-it-game.andrewbridge.deno.net';
 
 // The gag: plays convert to money at real-world streaming rates — pitiful.
 export const PLAY_RATE = 0.003; // £ earned per play
