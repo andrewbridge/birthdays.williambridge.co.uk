@@ -1,7 +1,7 @@
 // Minimal offline support for the game, scoped to /making-it/. Network-first so
 // fresh deploys always win when online, falling back to cache when offline.
 // Bump CACHE_VERSION to retire old caches.
-const CACHE_VERSION = 'making-it-v1';
+const CACHE_VERSION = 'making-it-v2';
 
 self.addEventListener('install', () => self.skipWaiting());
 
