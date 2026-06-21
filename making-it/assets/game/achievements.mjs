@@ -100,8 +100,8 @@ export const ACHIEVEMENTS = [
         name: 'Hustle',
         cash: 0,
         hidden: true,
-        condition: (s) => s.tapBurst >= 100,
-        message: 'A hundred posts in a flurry. This is the grind they keep telling you about.',
+        condition: (s) => s.tapBurst >= 24,
+        message: 'Two dozen posts in three seconds flat. This is the grind they keep telling you about.',
     },
     {
         id: '5DCF5425-670B-4A1C-9DE4-6C6A1AE5B7DB',
